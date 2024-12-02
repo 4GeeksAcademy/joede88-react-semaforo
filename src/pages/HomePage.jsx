@@ -1,4 +1,5 @@
 import Bienvenidos from "../components/HomePage/Bienvenidos";
+import Semaforo from "../components/HomePage/Semaforo";
 import WelcomeAlert from "../components/HomePage/WelcomeAlert";
 
 const HomePage = () => {
@@ -6,6 +7,7 @@ const HomePage = () => {
     <>
       <Bienvenidos/>
       <WelcomeAlert/>
+      <Semaforo/>
     </>
   );
 };
